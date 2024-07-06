@@ -127,7 +127,7 @@
 
         Related to:
         * https://github.com/autocompletejs/autocomplete.js/issues/78
-        * https://github.com/searxng/searxng/issues/1695
+        * https://github.com/Naveenkhegde/searxng/issues/1695
        */
       AutoComplete.prototype.ajax = function (params, request, timeout) {
         if (timeout === void 0) { timeout = true; }

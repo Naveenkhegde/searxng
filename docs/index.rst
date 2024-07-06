@@ -21,7 +21,7 @@ If you don't trust anyone, you can set up your own, see :ref:`installation`.
    - `about 60 translations <https://translate.codeberg.org/projects/searxng/searxng/>`_
    - about 100 `well maintained <https://uptime.searxng.org/>`__ instances on searx.space_
    - :ref:`easy integration of search engines <demo online engine>`
-   - professional development: `CI <https://github.com/searxng/searxng/actions>`_,
+   - professional development: `CI <https://github.com/Naveenkhegde/searxng/actions>`_,
      `quality assurance <https://dev.searxng.org/>`_ &
      `automated tested UI <https://dev.searxng.org/screenshots.html>`_
 

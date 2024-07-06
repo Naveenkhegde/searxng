@@ -180,7 +180,7 @@ def fetch_traits(engine_traits: EngineTraits) -> None:
     # pylint: disable=import-outside-toplevel, too-many-branches
 
     import babel
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
     from searx.locales import language_tag
 
     resp = get(base_url, verify=False)

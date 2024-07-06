@@ -142,7 +142,7 @@ def fetch_traits(engine_traits: EngineTraits):
     # pylint: disable=import-outside-toplevel
 
     import babel
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
     from searx.locales import language_tag
 
     engine_traits.all_locale = ''

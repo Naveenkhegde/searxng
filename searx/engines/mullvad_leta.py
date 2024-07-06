@@ -137,7 +137,7 @@ def fetch_traits(engine_traits: EngineTraits):
         updated.
     """
     # pylint: disable=import-outside-toplevel
-    # see https://github.com/searxng/searxng/issues/762
+    # see https://github.com/Naveenkhegde/searxng/issues/762
     from searx.network import post as http_post
 
     # pylint: enable=import-outside-toplevel

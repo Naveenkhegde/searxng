@@ -20,7 +20,7 @@ Don't hesitate, just clone SearXNG's sources and start hacking right now ..
 
 .. code:: bash
 
-    git clone https://github.com/searxng/searxng.git searxng
+    git clone https://github.com/Naveenkhegde/searxng.git searxng
 
 Here is how a minimal workflow looks like:
 

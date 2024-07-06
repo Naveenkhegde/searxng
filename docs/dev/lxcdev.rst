@@ -92,7 +92,7 @@ fork:
      .. code:: bash
 
         $ cd ~/Downloads
-        $ git clone https://github.com/searxng/searxng.git searxng
+        $ git clone https://github.com/Naveenkhegde/searxng.git searxng
         $ cd searxng
 
 .. sidebar:: The ``searxng-archlinux`` container
@@ -430,7 +430,7 @@ use:
    [searxng-archlinux]  uWSGI:
    [searxng-archlinux]    SEARXNG_UWSGI_SOCKET : /usr/local/searxng/run/socket
    [searxng-archlinux]  environment /usr/local/searxng/searxng-src/utils/brand.env:
-   [searxng-archlinux]    GIT_URL              : https://github.com/searxng/searxng
+   [searxng-archlinux]    GIT_URL              : https://github.com/Naveenkhegde/searxng
    [searxng-archlinux]    GIT_BRANCH           : master
    [searxng-archlinux]    SEARXNG_URL          : http:///n.n.n.140/searxng
    [searxng-archlinux]    SEARXNG_PORT         : 8888

@@ -184,7 +184,7 @@ def _parse_text_and_convert(search, from_query, to_query):
 
     # Symbols are not unique, if there are several hits for the from-unit, then
     # the correct one must be determined by comparing it with the to-unit
-    # https://github.com/searxng/searxng/pull/3378#issuecomment-2080974863
+    # https://github.com/Naveenkhegde/searxng/pull/3378#issuecomment-2080974863
 
     # first: collecting possible units
 

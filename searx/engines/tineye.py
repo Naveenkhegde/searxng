@@ -183,7 +183,7 @@ def response(resp):
                 # test https://notexists
                 message = DOWNLOAD_ERROR
 
-            # see https://github.com/searxng/searxng/pull/1456#issuecomment-1193105023
+            # see https://github.com/Naveenkhegde/searxng/pull/1456#issuecomment-1193105023
             # results.append({'answer': message})
             logger.error(message)
 

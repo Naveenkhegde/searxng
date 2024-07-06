@@ -113,7 +113,7 @@ def fetch_traits(engine_traits: EngineTraits):
 
     """
     # pylint: disable=import-outside-toplevel
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 
     engine_traits.custom['wiki_netloc'] = {}
     engine_traits.custom['title'] = {}

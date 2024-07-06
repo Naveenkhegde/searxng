@@ -12,7 +12,7 @@ from dateutil.relativedelta import relativedelta
 
 import babel
 
-from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 from searx.locales import language_tag
 from searx.utils import html_to_text
 from searx.enginelib.traits import EngineTraits

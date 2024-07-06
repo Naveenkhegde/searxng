@@ -665,7 +665,7 @@ def detect_language(text: str, threshold: float = 0.3, only_search_languages: bo
        (``zh_Hans``) while the `language identification model`_ reduce both to
        ``zh``.
 
-    .. _a fork: https://github.com/searxng/fasttext-predict
+    .. _a fork: https://github.com/Naveenkhegde/fasttext-predict
     .. _fastText: https://fasttext.cc/
     .. _python fasttext: https://pypi.org/project/fasttext/
     .. _language identification model: https://fasttext.cc/docs/en/language-identification.html

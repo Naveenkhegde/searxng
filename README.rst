@@ -45,19 +45,19 @@ A user_, admin_ and developer_ handbook is available on the homepage_.
    :target: https://docs.searxng.org/
 
 .. |SearXNG wiki| image:: https://img.shields.io/badge/-wiki-blue
-   :target: https://github.com/searxng/searxng/wiki
+   :target: https://github.com/Naveenkhegde/searxng/wiki
 
 .. |AGPL License|  image:: https://img.shields.io/badge/license-AGPL-blue.svg
-   :target: https://github.com/searxng/searxng/blob/master/LICENSE
+   :target: https://github.com/Naveenkhegde/searxng/blob/master/LICENSE
 
 .. |Issues| image:: https://img.shields.io/github/issues/searxng/searxng?color=yellow&label=issues
-   :target: https://github.com/searxng/searxng/issues
+   :target: https://github.com/Naveenkhegde/searxng/issues
 
 .. |PR| image:: https://img.shields.io/github/issues-pr-raw/searxng/searxng?color=yellow&label=PR
-   :target: https://github.com/searxng/searxng/pulls
+   :target: https://github.com/Naveenkhegde/searxng/pulls
 
 .. |commits| image:: https://img.shields.io/github/commit-activity/y/searxng/searxng?color=yellow&label=commits
-   :target: https://github.com/searxng/searxng/commits/master
+   :target: https://github.com/Naveenkhegde/searxng/commits/master
 
 .. |weblate| image:: https://translate.codeberg.org/widgets/searxng/-/searxng/svg-badge.svg
    :target: https://translate.codeberg.org/projects/searxng/
@@ -88,7 +88,7 @@ Setup
 .. _Administrator documentation: https://docs.searxng.org/admin/index.html
 .. _Step by step: https://docs.searxng.org/admin/installation-searxng.html
 .. _installation scripts: https://docs.searxng.org/admin/installation-scripts.html
-.. _Docker image: https://github.com/searxng/searxng-docker
+.. _Docker image: https://github.com/Naveenkhegde/searxng-docker
 
 Translations
 ============

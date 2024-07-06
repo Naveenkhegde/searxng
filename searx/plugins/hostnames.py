@@ -6,7 +6,7 @@ other features.
 .. attention::
 
    The 'Hostnames plugin' from `PR-3463
-   <https://github.com/searxng/searxng/pull/3463>`_ is a rewrite of the
+   <https://github.com/Naveenkhegde/searxng/pull/3463>`_ is a rewrite of the
    'Hostname replace' plugin.  Backwards compatibility is guaranteed for a
    transitional period, but this will end soon.
 

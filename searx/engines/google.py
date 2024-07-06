@@ -22,7 +22,7 @@ import babel.languages
 
 from searx.utils import extract_text, eval_xpath, eval_xpath_list, eval_xpath_getindex
 from searx.locales import language_tag, region_tag, get_official_locales
-from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 from searx.exceptions import SearxEngineCaptchaException
 from searx.enginelib.traits import EngineTraits
 
@@ -172,7 +172,7 @@ def get_google_info(params, eng_traits):
     # The Interface Language:
     #   https://developers.google.com/custom-search/docs/xml_results_appendices#interfaceLanguages
 
-    # https://github.com/searxng/searxng/issues/2515#issuecomment-1607150817
+    # https://github.com/Naveenkhegde/searxng/issues/2515#issuecomment-1607150817
     ret_val['params']['hl'] = f'{lang_code}-{country}'
 
     # lr parameter:
@@ -199,7 +199,7 @@ def get_google_info(params, eng_traits):
     #   https://developers.google.com/custom-search/docs/xml_results#crsp
 
     # specify a region (country) only if a region is given in the selected
-    # locale --> https://github.com/searxng/searxng/issues/2672
+    # locale --> https://github.com/Naveenkhegde/searxng/issues/2672
     ret_val['params']['cr'] = ''
     if len(sxng_locale.split('-')) > 1:
         ret_val['params']['cr'] = 'country' + country
@@ -215,7 +215,7 @@ def get_google_info(params, eng_traits):
     #   countries other than the United States.
     #   https://developers.google.com/custom-search/docs/xml_results#glsp
 
-    # https://github.com/searxng/searxng/issues/2515#issuecomment-1606294635
+    # https://github.com/Naveenkhegde/searxng/issues/2515#issuecomment-1606294635
     # ret_val['params']['gl'] = country
 
     # ie parameter:
@@ -247,8 +247,8 @@ def get_google_info(params, eng_traits):
 
     # Cookies
 
-    # - https://github.com/searxng/searxng/pull/1679#issuecomment-1235432746
-    # - https://github.com/searxng/searxng/issues/1555
+    # - https://github.com/Naveenkhegde/searxng/pull/1679#issuecomment-1235432746
+    # - https://github.com/Naveenkhegde/searxng/issues/1555
     ret_val['cookies']['CONSENT'] = "YES+"
 
     return ret_val

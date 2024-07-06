@@ -92,7 +92,7 @@ import lxml.html
 import babel.localedata
 
 from searx.utils import extract_text, eval_xpath, gen_useragent
-from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 from searx.exceptions import SearxEngineCaptchaException
 from searx.locales import region_tag
 from searx.enginelib.traits import EngineTraits
@@ -227,7 +227,7 @@ def get_sc_code(searxng_locale, params):
     try:
         sc_code = eval_xpath(dom, search_form_xpath + '//input[@name="sc"]/@value')[0]
     except IndexError as exc:
-        logger.debug("suspend startpage API --> https://github.com/searxng/searxng/pull/695")
+        logger.debug("suspend startpage API --> https://github.com/Naveenkhegde/searxng/pull/695")
         raise SearxEngineCaptchaException(
             message="get_sc_code: [PR-695] query new sc time-stamp failed! (%s)" % resp.url,  # type: ignore
         ) from exc

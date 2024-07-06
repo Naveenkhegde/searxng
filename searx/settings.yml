@@ -14,11 +14,11 @@ general:
   enable_metrics: true
 
 brand:
-  new_issue_url: https://github.com/searxng/searxng/issues/new
+  new_issue_url: https://github.com/Naveenkhegde/searxng/issues/new
   docs_url: https://docs.searxng.org/
   public_instances: https://searx.space
-  wiki_url: https://github.com/searxng/searxng/wiki
-  issue_url: https://github.com/searxng/searxng/issues
+  wiki_url: https://github.com/Naveenkhegde/searxng/wiki
+  issue_url: https://github.com/Naveenkhegde/searxng/issues
   # custom:
   #   maintainer: "Jon Doe"
   #   # Custom entries in the footer: [title]: [link]
@@ -1395,7 +1395,7 @@ engines:
       # Proxies from public instances.  Ask the public instances owners if they
       # agree to receive traffic from SearXNG!
       #    --> https://codeberg.org/VnPower/PixivFE#instances
-      #    --> https://github.com/searxng/searxng/pull/3192#issuecomment-1941095047
+      #    --> https://github.com/Naveenkhegde/searxng/pull/3192#issuecomment-1941095047
       # image proxy of https://pixiv.cat
       # - https://i.pixiv.cat
       # image proxy of https://www.pixiv.pics

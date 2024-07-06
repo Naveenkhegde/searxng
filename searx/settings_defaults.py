@@ -145,11 +145,11 @@ SCHEMA = {
         'enable_metrics': SettingsValue(bool, True),
     },
     'brand': {
-        'issue_url': SettingsValue(str, 'https://github.com/searxng/searxng/issues'),
-        'new_issue_url': SettingsValue(str, 'https://github.com/searxng/searxng/issues/new'),
+        'issue_url': SettingsValue(str, 'https://github.com/Naveenkhegde/searxng/issues'),
+        'new_issue_url': SettingsValue(str, 'https://github.com/Naveenkhegde/searxng/issues/new'),
         'docs_url': SettingsValue(str, 'https://docs.searxng.org'),
         'public_instances': SettingsValue((False, str), 'https://searx.space'),
-        'wiki_url': SettingsValue(str, 'https://github.com/searxng/searxng/wiki'),
+        'wiki_url': SettingsValue(str, 'https://github.com/Naveenkhegde/searxng/wiki'),
         'custom': SettingsValue(dict, {'links': {}}),
     },
     'search': {

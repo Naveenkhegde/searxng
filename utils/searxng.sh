@@ -452,7 +452,7 @@ searxng.install.clone() {
     # export SERVICE_HOME
 
     # clone repo and add a safe.directory entry to git's system config / see
-    # https://github.com/searxng/searxng/issues/1251
+    # https://github.com/Naveenkhegde/searxng/issues/1251
     git_clone "$REPO_ROOT" "${SEARXNG_SRC}" \
               "$GIT_BRANCH" "${SERVICE_USER}"
     git config --system --add safe.directory "${SEARXNG_SRC}"

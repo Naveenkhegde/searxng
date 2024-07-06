@@ -191,7 +191,7 @@ def fetch_traits(engine_traits: EngineTraits):
     """Fetch languages and regions from Bing-Web."""
     # pylint: disable=import-outside-toplevel
 
-    from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+    from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 
     resp = get("https://www.bing.com/account/general")
     if not resp.ok:  # type: ignore

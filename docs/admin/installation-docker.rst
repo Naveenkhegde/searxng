@@ -6,7 +6,7 @@ Docker Container
 
 .. _ENTRYPOINT: https://docs.docker.com/engine/reference/builder/#entrypoint
 .. _searxng/searxng @dockerhub: https://hub.docker.com/r/searxng/searxng
-.. _searxng-docker: https://github.com/searxng/searxng-docker
+.. _searxng-docker: https://github.com/Naveenkhegde/searxng-docker
 .. _[caddy]: https://hub.docker.com/_/caddy
 .. _Redis: https://redis.io/
 
@@ -38,7 +38,7 @@ The sources are hosted at searxng-docker_ and the container includes:
 - a HTTPS reverse proxy `[caddy]`_ and
 - a Redis_ DB
 
-The `default SearXNG setup <https://github.com/searxng/searxng-docker/blob/master/searxng/settings.yml>`_
+The `default SearXNG setup <https://github.com/Naveenkhegde/searxng-docker/blob/master/searxng/settings.yml>`_
 of this container:
 
 - enables :ref:`limiter <limiter>` to protect against bots
@@ -164,7 +164,7 @@ Build the image
 
 It's also possible to build SearXNG from the embedded :origin:`Dockerfile`::
 
-   $ git clone https://github.com/searxng/searxng.git
+   $ git clone https://github.com/Naveenkhegde/searxng.git
    $ cd searxng
    $ make docker.build
    ...

@@ -21,7 +21,7 @@ from searx.utils import (
     eval_xpath_getindex,
     extract_text,
 )
-from searx.network import get  # see https://github.com/searxng/searxng/issues/762
+from searx.network import get  # see https://github.com/Naveenkhegde/searxng/issues/762
 from searx import redisdb
 from searx.enginelib.traits import EngineTraits
 from searx.utils import extr
