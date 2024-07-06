@@ -11,9 +11,9 @@
   {% for category in selected_categories %}
   <input type="hidden" name="category_{{ category }}" value="1" >
   {% endfor %}
-  <input type="hidden" name="language" value="{{ current_language }}" >
-  <input type="hidden" name="time_range" value="{{ time_range }}" >
-  <input type="hidden" name="safesearch" value="{{ safesearch }}" >
+  <input type="hidden" name="language" value="{{ current_language }}" color="#fff" >
+  <input type="hidden" name="time_range" value="{{ time_range }}" color="#fff" >
+  <input type="hidden" name="safesearch" value="{{ safesearch }}" color="#fff" >
   <input type="hidden" name="theme" value="{{ theme }}" >
   {% if timeout_limit %}<input type="hidden" name="timeout_limit" value="{{ timeout_limit|e }}" >{% endif %}
 </form>
