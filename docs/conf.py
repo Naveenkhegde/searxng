@@ -90,9 +90,9 @@ def setup(app):
 extlinks = {}
 
 # upstream links
-extlinks['wiki'] = ('https://github.com/searxng/searxng/wiki/%s', ' %s')
-extlinks['pull'] = ('https://github.com/searxng/searxng/pull/%s', 'PR %s')
-extlinks['pull-searx'] = ('https://github.com/searx/searx/pull/%s', 'PR %s')
+extlinks['wiki'] = ('https://github.com/Naveenkhegde/searxng/wiki/%s', ' %s')
+extlinks['pull'] = ('https://github.com/Naveenkhegde/searxng/pull/%s', 'PR %s')
+extlinks['pull-searx'] = ('https://github.com/Naveenkhegde/searx/pull/%s', 'PR %s')
 
 # links to custom brand
 extlinks['origin'] = (GIT_URL + '/blob/' + GIT_BRANCH + '/%s', 'git://%s')
