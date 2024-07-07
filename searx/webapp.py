@@ -798,7 +798,7 @@ def search():
 def about():
     """Redirect to about page"""
     # custom_url_for is going to add the locale
-    return render_template('about.html')
+    return redirect(custom_url_for('info', pagename='about'))
 
 
 '''
