@@ -191,7 +191,6 @@ module.exports = function (grunt) {
           'people-outline': 'node_modules/ionicons/dist/svg/share-social-sharp.svg',
           'heart-outline': 'node_modules/ionicons/dist/svg/heart-outline.svg',
           'information-circle-outline': 'src/svg/information-circle-outline.svg',
-        },
         dest: '../../../templates/simple/icons.html',
       },
     },
