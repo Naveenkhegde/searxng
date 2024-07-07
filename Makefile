@@ -100,3 +100,7 @@ PHONY += docs docker themes
 docs: docs.html
 docker:  docker.build
 themes: themes.all
+
+
+docker.build:
+	$(Q)docker build -t searxng:latest .
